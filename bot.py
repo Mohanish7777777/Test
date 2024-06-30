@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import requests
 
 # Replace 'YOUR_BOT_TOKEN' with your actual bot token
-BOT_TOKEN = 'YOUR_BOT_TOKEN'
+BOT_TOKEN = '6637834850:AAFlGkctW1M70WElK5eKKtrgRFatIhZXbw8'
 
 def start(update, context):
     update.message.reply_text('Send me a Terabox video URL!')
